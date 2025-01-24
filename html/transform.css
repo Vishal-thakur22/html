@@ -1,0 +1,24 @@
+div{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    margin: 50px;
+    transition: all 2s ease-in-out 1s;
+}
+.div-1:hover{
+   transform:rotate(360deg);
+
+}
+.div-2:hover{
+    transform:scale(1.5);
+}
+.div-3:hover{
+    transform:skew(30deg);
+}
+.div-4:hover{
+    transform:translate(80px,200px)
+}
+.div-5:hover{/*to change many positions simultaneously*/
+    transform:matrix(1, .5, 0, 1, 0, 0);
+    background-color:antiquewhite
+}

@@ -1,0 +1,60 @@
+.flex-container{
+    display: flex;
+    background-color: rgb(255, 145, 246);
+}
+.flex-container div{
+    margin: 10px;
+    background-color: gold;
+    padding:20px;
+    font-size:40px;
+}
+.flex-direction{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row; /* column , row reverse , column reverse  
+    
+    */
+}
+.flex-direction div{
+    margin: 20px;
+    background-color: blue;
+    padding: 20px;
+
+}
+
+.nowrap{
+    display: flex;
+    background-color: aqua;
+    flex-wrap: nowrap; /* it will  not change  the area occupied*/
+}
+.nowrap div{
+    margin: 20px;
+    background-color: rgb(35, 35, 59);
+    padding: 20px;
+    font-size:40px;
+
+}
+.wrap{
+    display: flex;
+    background-color: aqua;
+    flex-wrap: wrap; /* it will  change its position  according to screeen size*/
+}
+.wrap div{
+    margin: 20px;
+    background-color: rgb(35, 35, 59);
+    padding: 20px;
+    font-size:40px;
+
+}
+.wrap-reverse{
+    display: flex;
+    background-color: aqua;
+    flex-wrap: wrap-reverse; /* it will  change its position  according to screeen size but in reverse order*/
+}
+.wrap-reverse div{
+    margin: 20px;
+    background-color: rgb(35, 35, 59);
+    padding: 20px;
+    font-size:40px;
+
+}

@@ -1,0 +1,23 @@
+p:hover{
+    background-color: aqua ;
+
+}
+p{
+    background-color: aqua !important;
+}
+
+
+p:nth-of-type(2n){
+    background-color:blue;
+
+}
+p:nth-last-child(4){
+
+    background-color: coral;
+}
+p::first-letter{
+    color: rgb(255, 0, 0);
+}
+p::first-line{
+    background-color: khaki;
+}

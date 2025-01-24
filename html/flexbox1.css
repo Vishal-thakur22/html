@@ -1,0 +1,19 @@
+.container{
+    border: 3px solid black;
+    position: relative;
+    padding: 7px;
+    display: flex;
+    justify-content:center;
+    height: 500px;
+    width: 700px;
+    align-items: center; /*to place the content vertically*/
+
+}
+.item{
+    background-color: orange;
+    height: 100px;
+    width:100px;
+    text-align: center;
+    margin:5px;
+    /* gap:50px; */
+}

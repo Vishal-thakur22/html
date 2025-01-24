@@ -1,0 +1,38 @@
+.key{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    animation-name:spin;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;/* to and fro motion*/
+    animation-iteration-count: infinite;
+    margin: 70px;
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+        background-color: aqua;
+    }
+    to{
+        transform: translate(400px) scale(2);
+        background-color: dodgerblue;
+    }
+}   
+
+.container{
+    background-color: rgb(161, 113, 55);
+    height: 300px;
+    width: 300px;
+}
+@media(max-width:600px){/* change the dimension of the website acording to the devicew*/
+    .container{
+        background-color: darkblue;
+    }
+    h1{
+        background-color: blanchedalmond;
+    }
+
+}
