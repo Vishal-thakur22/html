@@ -4,3 +4,4 @@ console.log(name);
   
 let mame
 console.log(mame);
+console.log("hello iam vishal")
