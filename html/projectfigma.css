@@ -1,6 +1,99 @@
 
 h2{
-    font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
+    font-family:Haettenschweiler, 'Arial', sans-serif;
+}
+.n1{
+    display: flex;
+    padding: 10px;
+    border-bottom: solid #e2e9f9 .9px;
+
+}
+.g0{
+    width: 140vh;
+    margin-left: 5vw;
+    font-size:30px;
+    display: flex;
+    margin-right:20vw ;
+}
+.g1{
+    width: 100vw;
+    margin-left: 2vw;
+    display:flex;
+}
+#boy{
+    border:none;
+    font-weight: 600;
+} 
+.n2{
+    margin-top: 1vh;
+    display: flex;
+    margin-left:5vw;
+    height:60px;
+}
+.filter{
+    text-align: end;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 2vw;
+    width: 40vw;
+    font-family:Impact  sans-serif;
+    font-weight: 600;
+    justify-content:space-evenly;
+
+}
+.create{
+    margin-top: 5px;
+    padding-left: 4vw;
+    border-left: solid #e2e9f9 1px;
+    width:30vw;
+}
+.date{
+  margin-top: 5px;
+    width:110vw;
+    float: left;
+}
+.search{
+    margin-top: 5px;
+    width:80vw;
+}
+#vv{
+    width: 110px;
+    border: solid  rgb(206, 222, 246) 0.2px;
+    border-radius: 7px;
+    background-color: rgb(206, 222, 246);
+}
+.c1{
+    margin-top: 3px;
+font-size: 12px;
+    padding-top: 5px;
+}
+.c2{
+    
+    margin-top: 4px;
+    font-size: 5px;
+    padding-bottom: 5px;
+}
+input{
+    background-color:rgb(206, 222, 246);
+    border: solid  rgb(206, 222, 246) 0.2px;
+    border-radius: 7px;
+    font-size: 12px;
+}
+.n1 img{
+    border:  #F5F8FF;solid 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+.heading{
+    border-top: #edf1fc solid 2px;
+    -webkit-box-shadow: 0px -3px 4px rgba(233, 241, 252, 0.45);
+    font-size: 30px;
+    margin-left:4vw;
+    margin-top: 1vh;
+    padding: 15px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .container{
     display: flex;
@@ -24,6 +117,7 @@ h2{
     transform: scale(1.05);
 }
 .box{
+    padding: 1px;
     display:flex;
     border:2px solid #000;
     border-radius:5px;
@@ -33,6 +127,7 @@ h2{
     margin:5px;
     flex-direction: column;
     margin:15px;
+    background-color: white;
 }
 .box span{
     padding-left:15px;
@@ -40,22 +135,32 @@ h2{
     font-family:Arial, Helvetica, sans-serif;
     margin:6px;
 }
+
 .footer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 2vw;
-    align-content: space-around;
+    align-content: space-evenly;
 }
-
-.footer span{
-    color:red  ;
+.head{
+    display: flex;
+}
+.s1{
+    font-size:30px;
+    color:rgb(10, 8, 8);
+    font-weight: 900;
+}
+.s2{
+    font-size: 30px;
+    color: red;
+    font-weight: 900;
 }
 .div1{
     display:flex;
     border-radius:5px;
     font-size:16px;
-    width:600px;
+    width:500px;
     margin:5px;
     flex-direction: column;
     margin:15px;
@@ -93,7 +198,7 @@ h2{
  font-size: 16px;
  margin-top: 5px;
  line-height: 1.5;
- padding:3px;
+ padding:5px;
  font-family: Arial, Helvetica, sans-serif;
 }
 h3{
@@ -104,7 +209,8 @@ h3{
 .d2{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    padding: 3px;
+    padding-top:3px;
+    padding-left: 30px;
 }
 .d3{
 
