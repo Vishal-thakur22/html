@@ -31,5 +31,32 @@
 
 
 // console.log(a);
-let a =21;
-console.log(a);
+// let a =21;
+// console.log(a);
+
+
+// let name ="vishal";
+
+// let company="google";
+// let info =(name +" "+company);       // this string concatination
+//  console.log(info ,company , name);
+// console.log( `my name is ${name} working in ${company}`);  //"${var}"it treats it as a variable--called as template literal
+
+
+
+// if /else statement
+ 
+//false value-
+// undefined, null,0,"empty string",NaN,false
+let a=23;
+
+if (a>10) {
+    console.log("a is greater");
+} else {
+    console.log("a is smaller");
+}
+if (a<30) {
+    console.log("a is smaller")
+} else {
+    console.log("a is greater")
+}
