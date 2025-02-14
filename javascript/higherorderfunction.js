@@ -79,46 +79,56 @@
 
 //           //  11/02/2025   //
 
-// event loop--->
-function timeConsumingByLoop() {
-    console.log("loop starts");
-    for (let i = 0; i < 1000000000; i++) {
-      // some task
-    }
-    console.log("loop ends");
-  }
+//                                       event loop--->   //
+// function timeConsumingByLoop() {
+//     console.log("loop starts");
+//     for (let i = 0; i < 1000000000; i++) {
+//       // some task
+//     }
+//     console.log("loop ends");
+//   }
   
-  function timeConsumingByRuntimeFeature0() {
-    console.log("Starting timer");
-    setTimeout(function exec() {
-      console.log("Completed the timer0");
-      for (let i = 0; i < 1000000000; i++) {
-        // some task
-      }
-    }, 5000); // 5 sec timer
-  }
+//   function timeConsumingByRuntimeFeature0() {
+//     console.log("Starting timer");
+//     setTimeout(function exec() {
+//       console.log("Completed the timer0");
+//       for (let i = 0; i < 1000000000; i++) {
+//         // some task
+//       }
+//     }, 5000); // 5 sec timer
+//   }
   
-  function timeConsumingByRuntimeFeature1() {
-    console.log("Starting timer");
-    setTimeout(function exec() {
-      console.log("Completed the timer1");
-    }, 0); // 0 s timer
-  }
+//   function timeConsumingByRuntimeFeature1() {
+//     console.log("Starting timer");
+//     setTimeout(function exec() {
+//       console.log("Completed the timer1");
+//     }, 0); // 0 s timer
+//   }
   
-  function timeConsumingByRuntimeFeature2() {
-    console.log("Starting timer");
-    setTimeout(function exec() {
-      console.log("Completed the timer2");
-    }, 200); // 200 ms timer
-  }
+//   function timeConsumingByRuntimeFeature2() {
+//     console.log("Starting timer");
+//     setTimeout(function exec() {
+//       console.log("Completed the timer2");
+//     }, 200); // 200 ms timer
+//   }
   
-  console.log("Hi");
-  timeConsumingByLoop();
-  timeConsumingByRuntimeFeature0();
-  timeConsumingByRuntimeFeature1();
-  timeConsumingByRuntimeFeature2();
-  timeConsumingByLoop();
-  console.log("By");
+//   console.log("Hi");
+//   timeConsumingByLoop();
+//   timeConsumingByRuntimeFeature0();
+//   timeConsumingByRuntimeFeature1();
+//   timeConsumingByRuntimeFeature2();
+//   timeConsumingByLoop();
+//   console.log("By");
   
+   
+//  try and catch to handle any errors in the web page  ----> error handling
 
+// console.log("start");
+// try {
+//     console.log(feb14);//it is used so that  the whole function should not stop.
+// }catch(err){console.log(err.message);
+
+// } finally {
+//     console.log("finally block");
+// }
 

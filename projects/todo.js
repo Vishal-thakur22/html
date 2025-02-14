@@ -26,5 +26,5 @@ else if (req=="delete"){
 else {
     console.log("invalid request");
 }
-
+req = prompt("plese enter your request");
 };
